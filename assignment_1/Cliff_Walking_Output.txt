@@ -1,0 +1,56 @@
+>> Cliff_Walking(50000)
+Where the Discount Factor = 0.900000 and E-Greedy = 0.100000
+Calculating Q-Learning for 50000 Episodes (This May Take a While)! Please Wait...
+1 Episodes Completed so Far! Reward per Episode:	-160.000000
+5 Episodes Completed so Far! Reward per Episode:	-108.600000
+10 Episodes Completed so Far! Reward per Episode:	-150.600000
+20 Episodes Completed so Far! Reward per Episode:	-146.400000
+30 Episodes Completed so Far! Reward per Episode:	-132.800000
+40 Episodes Completed so Far! Reward per Episode:	-129.750000
+50 Episodes Completed so Far! Reward per Episode:	-125.660000
+100 Episodes Completed so Far! Reward per Episode:	-112.870000
+200 Episodes Completed so Far! Reward per Episode:	-96.895000
+300 Episodes Completed so Far! Reward per Episode:	-89.816667
+400 Episodes Completed so Far! Reward per Episode:	-84.500000
+500 Episodes Completed so Far! Reward per Episode:	-80.582000
+1000 Episodes Completed so Far! Reward per Episode:	-76.687000
+5000 Episodes Completed so Far! Reward per Episode:	-72.309800
+10000 Episodes Completed so Far! Reward per Episode:	-71.950800
+50000 Episodes Completed so Far! Reward per Episode:	-71.027960
+Final Reward per Episode is:	-71.027960
+
+Where 0 is Terminal, 1 is Left, 2 is Right, 3 is Up, and 4 is Down (With Combinations)
+Row 4 Column 1 is our Start State, and Row 4 Column 12 is our Goal State
+Q-Learning Path After 50000 Episodes is:
+     2     4     4     2     2     2     2     2     2     4     4     4
+    24    24    24    24    24    24    24    24    24    24    24     4
+     2     2     2     2     2     2     2     2     2     2     2     4
+     3     0     0     0     0     0     0     0     0     0     0     0
+
+Where the Discount Factor = 0.900000 and E-Greedy = 0.100000
+Calculating SARSA for 50000 Episodes (This May Take a While)! Please Wait...
+1 Episodes Completed so Far! Reward per Episode:	-87.000000
+5 Episodes Completed so Far! Reward per Episode:	-204.400000
+10 Episodes Completed so Far! Reward per Episode:	-188.800000
+20 Episodes Completed so Far! Reward per Episode:	-142.850000
+30 Episodes Completed so Far! Reward per Episode:	-124.166667
+40 Episodes Completed so Far! Reward per Episode:	-111.900000
+50 Episodes Completed so Far! Reward per Episode:	-99.860000
+100 Episodes Completed so Far! Reward per Episode:	-74.840000
+200 Episodes Completed so Far! Reward per Episode:	-50.545000
+300 Episodes Completed so Far! Reward per Episode:	-41.470000
+400 Episodes Completed so Far! Reward per Episode:	-37.310000
+500 Episodes Completed so Far! Reward per Episode:	-35.486000
+1000 Episodes Completed so Far! Reward per Episode:	-29.298000
+5000 Episodes Completed so Far! Reward per Episode:	-24.767600
+10000 Episodes Completed so Far! Reward per Episode:	-24.397800
+50000 Episodes Completed so Far! Reward per Episode:	-24.010520
+Final Reward per Episode is:	-24.010520
+
+Where 0 is Terminal, 1 is Left, 2 is Right, 3 is Up, and 4 is Down (With Combinations)
+Row 4 Column 1 is our Start State, and Row 4 Column 12 is our Goal State
+SARSA Path After 50000 Episodes is:
+     2     2     2     2     2     2     2     2     2     2     2     4
+     3     3     3     3     3     3     3     3     3     2     2     4
+     3     3     3     3     2     3     3     3     3     3     3     4
+     3     0     0     0     0     0     0     0     0     0     0     0
